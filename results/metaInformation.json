@@ -1,0 +1,19 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "linter": "QDNET",
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/hybloid/rd",
+        "revisionId": "31451cb57973ffcb0c42adcb5855727c8516744f",
+        "branch": "testbranch"
+      }
+    },
+    "deviceId": "200820300000000-0000-0000-0000-000000000001",
+    "jobUrl": "",
+    "repoUrl": "https://github.com/hybloid/rd"
+  }
+}
