@@ -4,6 +4,38 @@
   "type": "Non-accessed local variable",
   "tags": [
     "C#",
+    ".NETFramework 4.6.1"
+  ],
+  "severity": "Critical",
+  "comment": "Local variable 'a' is only assigned but its value is never used",
+  "detailsInfo": "",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/Maybe.cs",
+      "language": "C#",
+      "line": 53,
+      "offset": 11,
+      "length": 1,
+      "code": {
+        "startLine": 51,
+        "length": 1,
+        "offset": 60,
+        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETFramework,Version=v4.6.1",
+    "inspectionName": "NotAccessedVariable.Compiler"
+  },
+  "hash": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Non-accessed local variable",
+  "tags": [
+    "C#",
     ".NETStandard 2.0"
   ],
   "severity": "Critical",
@@ -62,132 +94,4 @@
     "inspectionName": "NotAccessedVariable.Compiler"
   },
   "hash": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
-},{
-  "tool": "Code Inspection",
-  "category": "Compiler Warnings",
-  "type": "Non-accessed local variable",
-  "tags": [
-    "C#",
-    ".NETFramework 4.6.1"
-  ],
-  "severity": "Critical",
-  "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
-      "language": "C#",
-      "line": 53,
-      "offset": 11,
-      "length": 1,
-      "code": {
-        "startLine": 51,
-        "length": 1,
-        "offset": 60,
-        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v4.6.1",
-    "inspectionName": "NotAccessedVariable.Compiler"
-  },
-  "hash": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
-},{
-  "tool": "Code Inspection",
-  "category": "Common Practices and Code Improvements",
-  "type": "Struct can be made readonly",
-  "tags": [
-    "C#",
-    ".NETStandard 2.0"
-  ],
-  "severity": "Moderate",
-  "comment": "Struct can be made readonly",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
-      "language": "C#",
-      "line": 13,
-      "offset": 17,
-      "length": 5,
-      "code": {
-        "startLine": 11,
-        "length": 5,
-        "offset": 72,
-        "surroundingCode": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
-    "inspectionName": "StructCanBeMadeReadOnly"
-  },
-  "hash": "3253c3075362861c40c8fe7a29d142110bc234ce040b7279cf5c6e62d828a288"
-},{
-  "tool": "Code Inspection",
-  "category": "Common Practices and Code Improvements",
-  "type": "Struct can be made readonly",
-  "tags": [
-    "C#",
-    ".NETFramework 3.5"
-  ],
-  "severity": "Moderate",
-  "comment": "Struct can be made readonly",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
-      "language": "C#",
-      "line": 13,
-      "offset": 17,
-      "length": 5,
-      "code": {
-        "startLine": 11,
-        "length": 5,
-        "offset": 72,
-        "surroundingCode": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
-    "inspectionName": "StructCanBeMadeReadOnly"
-  },
-  "hash": "c1fd7e42354348c5796d10f6a660c7e090eeedd1199f9ca62a8a1e22256a5642"
-},{
-  "tool": "Code Inspection",
-  "category": "Common Practices and Code Improvements",
-  "type": "Struct can be made readonly",
-  "tags": [
-    "C#",
-    ".NETFramework 4.6.1"
-  ],
-  "severity": "Moderate",
-  "comment": "Struct can be made readonly",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
-      "language": "C#",
-      "line": 13,
-      "offset": 17,
-      "length": 5,
-      "code": {
-        "startLine": 11,
-        "length": 5,
-        "offset": 72,
-        "surroundingCode": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v4.6.1",
-    "inspectionName": "StructCanBeMadeReadOnly"
-  },
-  "hash": "c012d67caedebe68e558aa0f6ef462ae27521a8217b171e5fd14bbdf2e3fb569"
 }]}

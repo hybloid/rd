@@ -80675,37 +80675,6 @@
                 ]
               },
               {
-                "id": "ConstantOnLHSOfComparisonJS",
-                "shortDescription": {
-                  "text": "Constant on left side of comparison"
-                },
-                "fullDescription": {
-                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
-                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSCheckFunctionSignatures",
                 "shortDescription": {
                   "text": "Signature mismatch"
@@ -80726,6 +80695,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ConstantOnLHSOfComparisonJS",
+                "shortDescription": {
+                  "text": "Constant on left side of comparison"
+                },
+                "fullDescription": {
+                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
+                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -81853,37 +81853,6 @@
                 ]
               },
               {
-                "id": "NonBlockStatementBodyJS",
-                "shortDescription": {
-                  "text": "Statement body without braces"
-                },
-                "fullDescription": {
-                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
-                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSValidateJSDoc",
                 "shortDescription": {
                   "text": "Syntax errors and unresolved references in JSDoc"
@@ -81904,6 +81873,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "NonBlockStatementBodyJS",
+                "shortDescription": {
+                  "text": "Statement body without braces"
+                },
+                "fullDescription": {
+                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
+                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -88232,37 +88232,6 @@
                 ]
               },
               {
-                "id": "SqlCallNotationInspection",
-                "shortDescription": {
-                  "text": "Using of named and positional arguments"
-                },
-                "fullDescription": {
-                  "text": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2. Example (In PostgreSQL): 'CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n    LANGUAGE plpgsql AS\n$$\nBEGIN\n    RETURN a + b + c;\nEND\n$$;\nSELECT foo(a => 1, b => 2, c => 3);\n  -- `3` goes after the named argument\nSELECT foo(1, b => 2, 3);\n  -- `1` and `3` go after the named argument\nSELECT foo(b => 2, 1, 3);'",
-                  "markdown": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2.\n\nExample (In PostgreSQL):\n\n    CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n        LANGUAGE plpgsql AS\n    $$\n    BEGIN\n        RETURN a + b + c;\n    END\n    $$;\n    SELECT foo(a => 1, b => 2, c => 3);\n      -- `3` goes after the named argument\n    SELECT foo(1, b => 2, 3);\n      -- `1` and `3` go after the named argument\n    SELECT foo(b => 2, 1, 3);\n"
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "error",
-                  "parameters": {
-                    "ideaSeverity": "ERROR"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "SQL",
-                      "index": 18,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "MysqlParsingInspection",
                 "shortDescription": {
                   "text": "Unsupported syntax in pre-8.0 versions"
@@ -88283,6 +88252,37 @@
                     "target": {
                       "id": "MySQL",
                       "index": 72,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "SqlCallNotationInspection",
+                "shortDescription": {
+                  "text": "Using of named and positional arguments"
+                },
+                "fullDescription": {
+                  "text": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2. Example (In PostgreSQL): 'CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n    LANGUAGE plpgsql AS\n$$\nBEGIN\n    RETURN a + b + c;\nEND\n$$;\nSELECT foo(a => 1, b => 2, c => 3);\n  -- `3` goes after the named argument\nSELECT foo(1, b => 2, 3);\n  -- `1` and `3` go after the named argument\nSELECT foo(b => 2, 1, 3);'",
+                  "markdown": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2.\n\nExample (In PostgreSQL):\n\n    CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n        LANGUAGE plpgsql AS\n    $$\n    BEGIN\n        RETURN a + b + c;\n    END\n    $$;\n    SELECT foo(a => 1, b => 2, c => 3);\n      -- `3` goes after the named argument\n    SELECT foo(1, b => 2, 3);\n      -- `1` and `3` go after the named argument\n    SELECT foo(b => 2, 1, 3);\n"
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "error",
+                  "parameters": {
+                    "ideaSeverity": "ERROR"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "SQL",
+                      "index": 18,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -91460,6 +91460,60 @@
               },
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
@@ -91530,229 +91584,13 @@
               ".NETFramework 3.5"
             ]
           }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 51,
-                  "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
-                  "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
-            ]
-          }
-        },
-        {
-          "ruleId": "StructCanBeMadeReadOnly",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Struct can be made readonly",
-            "markdown": "Struct can be made readonly"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 17,
-                  "charOffset": 383,
-                  "charLength": 5,
-                  "snippet": {
-                    "text": "Maybe"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 11,
-                  "startColumn": 1,
-                  "charOffset": 311,
-                  "charLength": 161,
-                  "snippet": {
-                    "text": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "3253c3075362861c40c8fe7a29d142110bc234ce040b7279cf5c6e62d828a288"
-          },
-          "properties": {
-            "ideaSeverity": "WEAK WARNING",
-            "tags": [
-              "C#",
-              ".NETStandard 2.0"
-            ]
-          }
-        },
-        {
-          "ruleId": "StructCanBeMadeReadOnly",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Struct can be made readonly",
-            "markdown": "Struct can be made readonly"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 17,
-                  "charOffset": 383,
-                  "charLength": 5,
-                  "snippet": {
-                    "text": "Maybe"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 11,
-                  "startColumn": 1,
-                  "charOffset": 311,
-                  "charLength": 161,
-                  "snippet": {
-                    "text": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "c1fd7e42354348c5796d10f6a660c7e090eeedd1199f9ca62a8a1e22256a5642"
-          },
-          "properties": {
-            "ideaSeverity": "WEAK WARNING",
-            "tags": [
-              "C#",
-              ".NETFramework 3.5"
-            ]
-          }
-        },
-        {
-          "ruleId": "StructCanBeMadeReadOnly",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Struct can be made readonly",
-            "markdown": "Struct can be made readonly"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 17,
-                  "charOffset": 383,
-                  "charLength": 5,
-                  "snippet": {
-                    "text": "Maybe"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 11,
-                  "startColumn": 1,
-                  "charOffset": 311,
-                  "charLength": 161,
-                  "snippet": {
-                    "text": "  /// </summary>\n  /// <typeparam name=\"T\"></typeparam>\n  public struct Maybe<T> : IEquatable<Maybe<T>>\n  {\n    [PublicAPI] public static readonly Maybe<T> None;"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "c012d67caedebe68e558aa0f6ef462ae27521a8217b171e5fd14bbdf2e3fb569"
-          },
-          "properties": {
-            "ideaSeverity": "WEAK WARNING",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
-            ]
-          }
         }
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-01-23",
-        "guid": "3e6535a5-3707-40b9-a620-c700d483aaff",
+        "guid": "3abdbd00-a285-4b35-add2-92ca2e14ac34",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3987802828"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3988395515"
         }
       },
       "newlineSequences": [

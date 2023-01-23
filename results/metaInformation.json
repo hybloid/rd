@@ -1,7 +1,7 @@
 {
-  "total": 6,
+  "total": 3,
   "tools inspection": {
-    "Code Inspection": 6
+    "Code Inspection": 3
   },
   "linter": "QDNET",
   "attributes": {
@@ -9,6 +9,6 @@
       "sarifIdea": {}
     },
     "deviceId": "200820300000000-0000-0000-0000-000000000001",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/3987802828"
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/3988395515"
   }
 }
