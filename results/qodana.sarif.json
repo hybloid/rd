@@ -80675,37 +80675,6 @@
                 ]
               },
               {
-                "id": "JSCheckFunctionSignatures",
-                "shortDescription": {
-                  "text": "Signature mismatch"
-                },
-                "fullDescription": {
-                  "text": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types. TypeScript code is ignored.",
-                  "markdown": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types.\n\nTypeScript code is ignored."
-                },
-                "defaultConfiguration": {
-                  "enabled": true,
-                  "level": "note",
-                  "parameters": {
-                    "ideaSeverity": "WEAK WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/General",
-                      "index": 11,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "ConstantOnLHSOfComparisonJS",
                 "shortDescription": {
                   "text": "Constant on left side of comparison"
@@ -80726,6 +80695,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Code style issues",
                       "index": 42,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "JSCheckFunctionSignatures",
+                "shortDescription": {
+                  "text": "Signature mismatch"
+                },
+                "fullDescription": {
+                  "text": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types. TypeScript code is ignored.",
+                  "markdown": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types.\n\nTypeScript code is ignored."
+                },
+                "defaultConfiguration": {
+                  "enabled": true,
+                  "level": "note",
+                  "parameters": {
+                    "ideaSeverity": "WEAK WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/General",
+                      "index": 11,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -81667,37 +81667,6 @@
                 ]
               },
               {
-                "id": "ES6UnusedImports",
-                "shortDescription": {
-                  "text": "Unused import"
-                },
-                "fullDescription": {
-                  "text": "Reports a redundant 'import' statement. This is usually the case if the imported symbols are not used in the source file. To avoid side-effects, consider using bare import 'import 'packageName'' instead of the regular one.",
-                  "markdown": "Reports a redundant `import` statement. This is usually the case if the imported symbols are not used in the source file. To avoid side-effects, consider using bare import `import 'packageName'` instead of the regular one."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Imports and dependencies",
-                      "index": 60,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "InnerHTMLJS",
                 "shortDescription": {
                   "text": "Use of 'innerHTML' property"
@@ -81718,6 +81687,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/DOM issues",
                       "index": 31,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ES6UnusedImports",
+                "shortDescription": {
+                  "text": "Unused import"
+                },
+                "fullDescription": {
+                  "text": "Reports a redundant 'import' statement. This is usually the case if the imported symbols are not used in the source file. To avoid side-effects, consider using bare import 'import 'packageName'' instead of the regular one.",
+                  "markdown": "Reports a redundant `import` statement. This is usually the case if the imported symbols are not used in the source file. To avoid side-effects, consider using bare import `import 'packageName'` instead of the regular one."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Imports and dependencies",
+                      "index": 60,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -81853,37 +81853,6 @@
                 ]
               },
               {
-                "id": "JSValidateJSDoc",
-                "shortDescription": {
-                  "text": "Syntax errors and unresolved references in JSDoc"
-                },
-                "fullDescription": {
-                  "text": "Reports a syntax discrepancy in a documentation comment.",
-                  "markdown": "Reports a syntax discrepancy in a documentation comment."
-                },
-                "defaultConfiguration": {
-                  "enabled": true,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/General",
-                      "index": 11,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "NonBlockStatementBodyJS",
                 "shortDescription": {
                   "text": "Statement body without braces"
@@ -81904,6 +81873,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Code style issues",
                       "index": 42,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "JSValidateJSDoc",
+                "shortDescription": {
+                  "text": "Syntax errors and unresolved references in JSDoc"
+                },
+                "fullDescription": {
+                  "text": "Reports a syntax discrepancy in a documentation comment.",
+                  "markdown": "Reports a syntax discrepancy in a documentation comment."
+                },
+                "defaultConfiguration": {
+                  "enabled": true,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/General",
+                      "index": 11,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -88232,37 +88232,6 @@
                 ]
               },
               {
-                "id": "MysqlParsingInspection",
-                "shortDescription": {
-                  "text": "Unsupported syntax in pre-8.0 versions"
-                },
-                "fullDescription": {
-                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
-                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "MySQL",
-                      "index": 72,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "SqlCallNotationInspection",
                 "shortDescription": {
                   "text": "Using of named and positional arguments"
@@ -88283,6 +88252,37 @@
                     "target": {
                       "id": "SQL",
                       "index": 18,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "MysqlParsingInspection",
+                "shortDescription": {
+                  "text": "Unsupported syntax in pre-8.0 versions"
+                },
+                "fullDescription": {
+                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
+                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "MySQL",
+                      "index": 72,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -91424,6 +91424,492 @@
       "language": "en-US",
       "results": [
         {
+          "ruleId": "ArrangeTypeMemberModifiers",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Inconsistent modifiers style: missing 'private' modifier",
+            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "ArrangeTypeMemberModifiers",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Inconsistent modifiers style: missing 'private' modifier",
+            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "ArrangeTypeMemberModifiers",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Inconsistent modifiers style: missing 'private' modifier",
+            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
+          "ruleId": "SuggestVarOrType_BuiltInTypes",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Use 'var' (built-in types)",
+            "markdown": "Use 'var' (built-in types)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "int"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "SuggestVarOrType_BuiltInTypes",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Use 'var' (built-in types)",
+            "markdown": "Use 'var' (built-in types)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "int"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "SuggestVarOrType_BuiltInTypes",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Use 'var' (built-in types)",
+            "markdown": "Use 'var' (built-in types)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "int"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
+          },
+          "properties": {
+            "ideaSeverity": "WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
+          },
+          "properties": {
+            "ideaSeverity": "WARNING",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
+          },
+          "properties": {
+            "ideaSeverity": "WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
           "ruleId": "NotAccessedVariable.Compiler",
           "kind": "fail",
           "level": "error",
@@ -91460,20 +91946,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+            "equalIndicator/v1": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
           },
           "properties": {
             "ideaSeverity": "ERROR",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -91568,6 +92054,60 @@
               },
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
@@ -91575,7 +92115,7 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
+            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
           },
           "properties": {
             "ideaSeverity": "ERROR",
@@ -91584,13 +92124,121 @@
               ".NETFramework 3.5"
             ]
           }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
         }
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-01-23",
-        "guid": "3abdbd00-a285-4b35-add2-92ca2e14ac34",
+        "guid": "a6291b83-7e3f-4e9c-a4de-a82c559525bd",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3988395515"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3989202349"
         }
       },
       "newlineSequences": [
