@@ -6,9 +6,14 @@
   "linter": "QDNET",
   "attributes": {
     "vcs": {
-      "sarifIdea": {}
+      "sarifIdea": {
+        "repositoryUri": "ssh://git@github.com/hybloid/rd.git",
+        "revisionId": "0be53c746387e64a6b449937fd847d52799e9297",
+        "branch": "refs/heads/testbranch"
+      }
     },
     "deviceId": "200820300000000-0000-0000-0000-000000000001",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/3997438212"
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/3998877363",
+    "repoUrl": "https://github.com/hybloid/rd"
   }
 }
