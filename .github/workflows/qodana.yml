@@ -28,7 +28,7 @@ jobs:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
           QODANA_BRANCH: testbranch
         with:
-          args: "--linter,registry.jetbrains.team/p/sa/containers/qodana-dotnet:231.5593.152.39"
+          args: "--linter,registry.jetbrains.team/p/sa/containers/qodana-dotnet:231.5593.152.39,-e,QODANA_BRANCH=testbranch"
       - name: 'Deploy to GitHub Pages'
         uses: peaceiris/actions-gh-pages@v3
         with:
