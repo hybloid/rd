@@ -81853,37 +81853,6 @@
                 ]
               },
               {
-                "id": "NonBlockStatementBodyJS",
-                "shortDescription": {
-                  "text": "Statement body without braces"
-                },
-                "fullDescription": {
-                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
-                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSValidateJSDoc",
                 "shortDescription": {
                   "text": "Syntax errors and unresolved references in JSDoc"
@@ -81904,6 +81873,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "NonBlockStatementBodyJS",
+                "shortDescription": {
+                  "text": "Statement body without braces"
+                },
+                "fullDescription": {
+                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
+                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -88232,37 +88232,6 @@
                 ]
               },
               {
-                "id": "MysqlParsingInspection",
-                "shortDescription": {
-                  "text": "Unsupported syntax in pre-8.0 versions"
-                },
-                "fullDescription": {
-                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
-                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "MySQL",
-                      "index": 72,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "SqlCallNotationInspection",
                 "shortDescription": {
                   "text": "Using of named and positional arguments"
@@ -88283,6 +88252,37 @@
                     "target": {
                       "id": "SQL",
                       "index": 18,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "MysqlParsingInspection",
+                "shortDescription": {
+                  "text": "Unsupported syntax in pre-8.0 versions"
+                },
+                "fullDescription": {
+                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
+                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "MySQL",
+                      "index": 72,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -91460,6 +91460,60 @@
               },
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
+          },
+          "properties": {
+            "ideaSeverity": "WEAK WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "ArrangeTypeMemberModifiers",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Inconsistent modifiers style: missing 'private' modifier",
+            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
@@ -91532,12 +91586,12 @@
           }
         },
         {
-          "ruleId": "ArrangeTypeMemberModifiers",
+          "ruleId": "SuggestVarOrType_BuiltInTypes",
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Inconsistent modifiers style: missing 'private' modifier",
-            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
+            "text": "Use 'var' (built-in types)",
+            "markdown": "Use 'var' (built-in types)"
           },
           "locations": [
             {
@@ -91547,22 +91601,22 @@
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 15,
-                  "charOffset": 64,
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
                   "charLength": 3,
                   "snippet": {
-                    "text": "Foo"
+                    "text": "int"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 3,
+                  "startLine": 5,
                   "startColumn": 1,
-                  "charOffset": 27,
-                  "charLength": 62,
+                  "charOffset": 50,
+                  "charLength": 45,
                   "snippet": {
-                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
                   }
                 }
               },
@@ -91575,7 +91629,7 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
+            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
@@ -91694,12 +91748,12 @@
           }
         },
         {
-          "ruleId": "SuggestVarOrType_BuiltInTypes",
+          "ruleId": "UnusedMember.Local",
           "kind": "fail",
-          "level": "note",
+          "level": "warning",
           "message": {
-            "text": "Use 'var' (built-in types)",
-            "markdown": "Use 'var' (built-in types)"
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
           },
           "locations": [
             {
@@ -91709,22 +91763,22 @@
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 5,
-                  "charOffset": 78,
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
                   "charLength": 3,
                   "snippet": {
-                    "text": "int"
+                    "text": "Foo"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 5,
+                  "startLine": 3,
                   "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
+                  "charOffset": 27,
+                  "charLength": 62,
                   "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
                   }
                 }
               },
@@ -91737,10 +91791,10 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
           },
           "properties": {
-            "ideaSeverity": "WEAK WARNING",
+            "ideaSeverity": "WARNING",
             "tags": [
               "C#",
               ".NETFramework 3.5"
@@ -91856,37 +91910,37 @@
           }
         },
         {
-          "ruleId": "UnusedMember.Local",
+          "ruleId": "NotAccessedVariable.Compiler",
           "kind": "fail",
-          "level": "warning",
+          "level": "error",
           "message": {
-            "text": "Method 'Foo' is never used",
-            "markdown": "Method 'Foo' is never used"
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uri": "Lifetimes/Core/Maybe.cs",
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 15,
-                  "charOffset": 64,
-                  "charLength": 3,
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
                   "snippet": {
-                    "text": "Foo"
+                    "text": "a"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 3,
+                  "startLine": 51,
                   "startColumn": 1,
-                  "charOffset": 27,
-                  "charLength": 62,
+                  "charOffset": 1364,
+                  "charLength": 146,
                   "snippet": {
-                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
                   }
                 }
               },
@@ -91899,10 +91953,172 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
+            "equalIndicator/v1": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
           },
           "properties": {
-            "ideaSeverity": "WARNING",
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
             "tags": [
               "C#",
               ".NETFramework 3.5"
@@ -92016,229 +92232,13 @@
               ".NETStandard 2.0"
             ]
           }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
-                  "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 3.5"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 51,
-                  "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
-                  "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETStandard 2.0"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 51,
-                  "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
-                  "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 3.5"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 51,
-                  "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
-                  "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
-            ]
-          }
         }
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-01-24",
-        "guid": "5e72e79f-a1b4-4964-ae90-37bea4f3b0a2",
+        "guid": "4f70e300-d3fd-4dfd-8a48-2e9397c6e3ef",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3996838735"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3997438212"
         }
       },
       "newlineSequences": [
