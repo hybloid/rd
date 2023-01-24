@@ -80675,37 +80675,6 @@
                 ]
               },
               {
-                "id": "ConstantOnLHSOfComparisonJS",
-                "shortDescription": {
-                  "text": "Constant on left side of comparison"
-                },
-                "fullDescription": {
-                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
-                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSCheckFunctionSignatures",
                 "shortDescription": {
                   "text": "Signature mismatch"
@@ -80726,6 +80695,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ConstantOnLHSOfComparisonJS",
+                "shortDescription": {
+                  "text": "Constant on left side of comparison"
+                },
+                "fullDescription": {
+                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
+                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -81853,37 +81853,6 @@
                 ]
               },
               {
-                "id": "JSValidateJSDoc",
-                "shortDescription": {
-                  "text": "Syntax errors and unresolved references in JSDoc"
-                },
-                "fullDescription": {
-                  "text": "Reports a syntax discrepancy in a documentation comment.",
-                  "markdown": "Reports a syntax discrepancy in a documentation comment."
-                },
-                "defaultConfiguration": {
-                  "enabled": true,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/General",
-                      "index": 11,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "NonBlockStatementBodyJS",
                 "shortDescription": {
                   "text": "Statement body without braces"
@@ -81904,6 +81873,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Code style issues",
                       "index": 42,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "JSValidateJSDoc",
+                "shortDescription": {
+                  "text": "Syntax errors and unresolved references in JSDoc"
+                },
+                "fullDescription": {
+                  "text": "Reports a syntax discrepancy in a documentation comment.",
+                  "markdown": "Reports a syntax discrepancy in a documentation comment."
+                },
+                "defaultConfiguration": {
+                  "enabled": true,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/General",
+                      "index": 11,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -88232,37 +88232,6 @@
                 ]
               },
               {
-                "id": "SqlCallNotationInspection",
-                "shortDescription": {
-                  "text": "Using of named and positional arguments"
-                },
-                "fullDescription": {
-                  "text": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2. Example (In PostgreSQL): 'CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n    LANGUAGE plpgsql AS\n$$\nBEGIN\n    RETURN a + b + c;\nEND\n$$;\nSELECT foo(a => 1, b => 2, c => 3);\n  -- `3` goes after the named argument\nSELECT foo(1, b => 2, 3);\n  -- `1` and `3` go after the named argument\nSELECT foo(b => 2, 1, 3);'",
-                  "markdown": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2.\n\nExample (In PostgreSQL):\n\n    CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n        LANGUAGE plpgsql AS\n    $$\n    BEGIN\n        RETURN a + b + c;\n    END\n    $$;\n    SELECT foo(a => 1, b => 2, c => 3);\n      -- `3` goes after the named argument\n    SELECT foo(1, b => 2, 3);\n      -- `1` and `3` go after the named argument\n    SELECT foo(b => 2, 1, 3);\n"
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "error",
-                  "parameters": {
-                    "ideaSeverity": "ERROR"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "SQL",
-                      "index": 18,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "MysqlParsingInspection",
                 "shortDescription": {
                   "text": "Unsupported syntax in pre-8.0 versions"
@@ -88283,6 +88252,37 @@
                     "target": {
                       "id": "MySQL",
                       "index": 72,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "SqlCallNotationInspection",
+                "shortDescription": {
+                  "text": "Using of named and positional arguments"
+                },
+                "fullDescription": {
+                  "text": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2. Example (In PostgreSQL): 'CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n    LANGUAGE plpgsql AS\n$$\nBEGIN\n    RETURN a + b + c;\nEND\n$$;\nSELECT foo(a => 1, b => 2, c => 3);\n  -- `3` goes after the named argument\nSELECT foo(1, b => 2, 3);\n  -- `1` and `3` go after the named argument\nSELECT foo(b => 2, 1, 3);'",
+                  "markdown": "Reports calls in which positional arguments go after the named ones. Works in PostgreSQL, Oracle, and Db2.\n\nExample (In PostgreSQL):\n\n    CREATE FUNCTION foo(a int, b int, c int) RETURNS int\n        LANGUAGE plpgsql AS\n    $$\n    BEGIN\n        RETURN a + b + c;\n    END\n    $$;\n    SELECT foo(a => 1, b => 2, c => 3);\n      -- `3` goes after the named argument\n    SELECT foo(1, b => 2, 3);\n      -- `1` and `3` go after the named argument\n    SELECT foo(b => 2, 1, 3);\n"
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "error",
+                  "parameters": {
+                    "ideaSeverity": "ERROR"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "SQL",
+                      "index": 18,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -91460,60 +91460,6 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
-          },
-          "properties": {
-            "ideaSeverity": "WEAK WARNING",
-            "tags": [
-              "C#",
-              ".NETFramework 3.5"
-            ]
-          }
-        },
-        {
-          "ruleId": "ArrangeTypeMemberModifiers",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Inconsistent modifiers style: missing 'private' modifier",
-            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 15,
-                  "charOffset": 64,
-                  "charLength": 3,
-                  "snippet": {
-                    "text": "Foo"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "charOffset": 27,
-                  "charLength": 62,
-                  "snippet": {
-                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
@@ -91586,12 +91532,12 @@
           }
         },
         {
-          "ruleId": "SuggestVarOrType_BuiltInTypes",
+          "ruleId": "ArrangeTypeMemberModifiers",
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Use 'var' (built-in types)",
-            "markdown": "Use 'var' (built-in types)"
+            "text": "Inconsistent modifiers style: missing 'private' modifier",
+            "markdown": "Inconsistent modifiers style: missing 'private' modifier"
           },
           "locations": [
             {
@@ -91601,22 +91547,22 @@
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 5,
-                  "charOffset": 78,
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
                   "charLength": 3,
                   "snippet": {
-                    "text": "int"
+                    "text": "Foo"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 5,
+                  "startLine": 3,
                   "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
+                  "charOffset": 27,
+                  "charLength": 62,
                   "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
                   }
                 }
               },
@@ -91629,7 +91575,7 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
@@ -91748,12 +91694,12 @@
           }
         },
         {
-          "ruleId": "UnusedMember.Local",
+          "ruleId": "SuggestVarOrType_BuiltInTypes",
           "kind": "fail",
-          "level": "warning",
+          "level": "note",
           "message": {
-            "text": "Method 'Foo' is never used",
-            "markdown": "Method 'Foo' is never used"
+            "text": "Use 'var' (built-in types)",
+            "markdown": "Use 'var' (built-in types)"
           },
           "locations": [
             {
@@ -91763,22 +91709,22 @@
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 15,
-                  "charOffset": 64,
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
                   "charLength": 3,
                   "snippet": {
-                    "text": "Foo"
+                    "text": "int"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 3,
+                  "startLine": 5,
                   "startColumn": 1,
-                  "charOffset": 27,
-                  "charLength": 62,
+                  "charOffset": 50,
+                  "charLength": 45,
                   "snippet": {
-                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
                   }
                 }
               },
@@ -91791,10 +91737,10 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
+            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
           },
           "properties": {
-            "ideaSeverity": "WARNING",
+            "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
               ".NETFramework 3.5"
@@ -91910,12 +91856,12 @@
           }
         },
         {
-          "ruleId": "NotAccessedVariable.Compiler",
+          "ruleId": "UnusedMember.Local",
           "kind": "fail",
-          "level": "error",
+          "level": "warning",
           "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
           },
           "locations": [
             {
@@ -91925,22 +91871,22 @@
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
                   "snippet": {
-                    "text": "a"
+                    "text": "Foo"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 5,
+                  "startLine": 3,
                   "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
+                  "charOffset": 27,
+                  "charLength": 62,
                   "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
                   }
                 }
               },
@@ -91953,10 +91899,10 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
+            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
           },
           "properties": {
-            "ideaSeverity": "ERROR",
+            "ideaSeverity": "WARNING",
             "tags": [
               "C#",
               ".NETFramework 3.5"
@@ -92083,13 +92029,13 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uri": "Lifetimes/Core/NewFile.cs",
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
                   "charLength": 1,
                   "snippet": {
                     "text": "a"
@@ -92097,31 +92043,31 @@
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 51,
+                  "startLine": 5,
                   "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
+                  "charOffset": 50,
+                  "charLength": 45,
                   "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
                   }
                 }
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
           },
           "properties": {
             "ideaSeverity": "ERROR",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -92232,13 +92178,67 @@
               ".NETFramework 3.5"
             ]
           }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
+            ]
+          }
         }
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-01-24",
-        "guid": "21e0976e-be24-4084-98ff-ed2d1cc8c3f7",
+        "guid": "5e72e79f-a1b4-4964-ae90-37bea4f3b0a2",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3996764291"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3996838735"
         }
       },
       "newlineSequences": [
