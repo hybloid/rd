@@ -26,6 +26,8 @@ jobs:
         uses: JetBrains/qodana-action@v2022.3.0
         with:
           args: "--linter,registry.jetbrains.team/p/sa/containers/qodana-dotnet:231.5593.152.39"
+	env:
+    	  QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
       - name: 'Deploy to GitHub Pages'
         uses: peaceiris/actions-gh-pages@v3
         with:
