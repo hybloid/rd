@@ -7,7 +7,7 @@
         "driver": {
           "name": "QDNET",
           "fullName": "Qodana for .NET",
-          "version": "231.5593.88.172",
+          "version": "231.5593.152.39",
           "rules": [],
           "taxa": [
             {
@@ -781,7 +781,7 @@
         "extensions": [
           {
             "name": "rider.intellij.plugin.appender",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "SwitchStatementHandlesSomeKnownEnumValuesWithDefault",
@@ -76897,7 +76897,7 @@
           },
           {
             "name": "org.jetbrains.plugins.sass",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "SassScssResolvedByNameOnly",
@@ -77033,7 +77033,7 @@
           },
           {
             "name": "com.intellij",
-            "version": "231.5593.88.172",
+            "version": "231.5593.152.39",
             "rules": [
               {
                 "id": "HtmlUnknownBooleanAttribute",
@@ -79060,7 +79060,7 @@
           },
           {
             "name": "JavaScript",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "FlowJSError",
@@ -85768,7 +85768,7 @@
           },
           {
             "name": "org.editorconfig.editorconfigjetbrains",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "EditorConfigNumerousWildcards",
@@ -86648,7 +86648,7 @@
           },
           {
             "name": "com.intellij.database",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "SqlMissingReturnInspection",
@@ -88737,7 +88737,7 @@
           },
           {
             "name": "com.intellij.css",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "CssInvalidFunction",
@@ -89524,7 +89524,7 @@
           },
           {
             "name": "com.intellij.properties",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "UseEllipsisInPropertyInspection",
@@ -89722,7 +89722,7 @@
           },
           {
             "name": "XPathView",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "XsltUnusedDeclaration",
@@ -90013,7 +90013,7 @@
           },
           {
             "name": "com.jetbrains.plugins.jade",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "JadeTabsAndSpaces",
@@ -90056,7 +90056,7 @@
           },
           {
             "name": "HtmlTools",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "HtmlRequiredSummaryAttribute",
@@ -90409,7 +90409,7 @@
           },
           {
             "name": "org.jetbrains.plugins.vue",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "VueMissingComponentImportInspection",
@@ -90607,7 +90607,7 @@
           },
           {
             "name": "intellij.webpack",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "WebpackConfigHighlighting",
@@ -90650,7 +90650,7 @@
           },
           {
             "name": "com.jetbrains.sh",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "ShellCheck",
@@ -90693,7 +90693,7 @@
           },
           {
             "name": "org.jetbrains.plugins.yaml",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "YAMLUnresolvedAlias",
@@ -90891,7 +90891,7 @@
           },
           {
             "name": "org.jetbrains.plugins.less",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "LessResolvedByNameOnly",
@@ -90996,7 +90996,7 @@
           },
           {
             "name": "com.jetbrains.rider-cpp",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "UnrealJsonLocalInspectionTool",
@@ -91039,7 +91039,7 @@
           },
           {
             "name": "Karma",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "KarmaConfigFile",
@@ -91082,7 +91082,7 @@
           },
           {
             "name": "com.jetbrains.plugins.ini4idea",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "DuplicateSectionInFile",
@@ -91156,7 +91156,7 @@
           },
           {
             "name": "tslint",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "TsLint",
@@ -91199,7 +91199,7 @@
           },
           {
             "name": "org.intellij.intelliLang",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "InjectedReferences",
@@ -91242,7 +91242,7 @@
           },
           {
             "name": "W3Validators",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "W3CssValidation",
@@ -91285,7 +91285,7 @@
           },
           {
             "name": "org.intellij.qodana",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "QodanaServiceMessage",
@@ -91328,7 +91328,7 @@
           },
           {
             "name": "com.intellij.plugins.watcher",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "TaskProblemsInspection",
@@ -91371,7 +91371,7 @@
           },
           {
             "name": "com.dmarcotte.handlebars",
-            "version": "231.5593.88",
+            "version": "231.5593.152",
             "rules": [
               {
                 "id": "HbEmptyBlock",
@@ -91460,20 +91460,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
+            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 3.5"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -91514,20 +91514,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
+            "equalIndicator/v1": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -91622,20 +91622,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+            "equalIndicator/v1": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 3.5"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -91676,20 +91676,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
+            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -91784,20 +91784,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
+            "equalIndicator/v1": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
           },
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
               "C#",
-              ".NETFramework 3.5"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -91838,20 +91838,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
+            "equalIndicator/v1": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
           },
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -91921,6 +91921,114 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "Lifetimes/Core/Maybe.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -91960,6 +92068,60 @@
             "tags": [
               "C#",
               ".NETFramework 3.5"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "charOffset": 50,
+                  "charLength": 45,
+                  "snippet": {
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -92070,175 +92232,13 @@
               ".NETFramework 4.6.1"
             ]
           }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
-                  "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 3.5"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
-                  "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETStandard 2.0"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
-                  "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
-            ]
-          }
         }
       ],
       "automationDetails": {
-        "id": "Rd/qodana/2023-01-23",
-        "guid": "a6291b83-7e3f-4e9c-a4de-a82c559525bd",
+        "id": "Rd/qodana/2023-01-24",
+        "guid": "4b94ce13-4ecf-4e20-9584-65be7d058286",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3989202349"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3995126188"
         }
       },
       "newlineSequences": [
