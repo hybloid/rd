@@ -80675,37 +80675,6 @@
                 ]
               },
               {
-                "id": "JSCheckFunctionSignatures",
-                "shortDescription": {
-                  "text": "Signature mismatch"
-                },
-                "fullDescription": {
-                  "text": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types. TypeScript code is ignored.",
-                  "markdown": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types.\n\nTypeScript code is ignored."
-                },
-                "defaultConfiguration": {
-                  "enabled": true,
-                  "level": "note",
-                  "parameters": {
-                    "ideaSeverity": "WEAK WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/General",
-                      "index": 11,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "ConstantOnLHSOfComparisonJS",
                 "shortDescription": {
                   "text": "Constant on left side of comparison"
@@ -80726,6 +80695,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Code style issues",
                       "index": 42,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "JSCheckFunctionSignatures",
+                "shortDescription": {
+                  "text": "Signature mismatch"
+                },
+                "fullDescription": {
+                  "text": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types. TypeScript code is ignored.",
+                  "markdown": "Reports a JavaScript call expression where the arguments do not match the signature of the referenced function, including the types of arguments and their number. Also, reports if the overloading function doesn't match the overloaded one in terms of parameters and return types.\n\nTypeScript code is ignored."
+                },
+                "defaultConfiguration": {
+                  "enabled": true,
+                  "level": "note",
+                  "parameters": {
+                    "ideaSeverity": "WEAK WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/General",
+                      "index": 11,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -88232,37 +88232,6 @@
                 ]
               },
               {
-                "id": "MysqlParsingInspection",
-                "shortDescription": {
-                  "text": "Unsupported syntax in pre-8.0 versions"
-                },
-                "fullDescription": {
-                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
-                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "MySQL",
-                      "index": 72,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "SqlCallNotationInspection",
                 "shortDescription": {
                   "text": "Using of named and positional arguments"
@@ -88283,6 +88252,37 @@
                     "target": {
                       "id": "SQL",
                       "index": 18,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "MysqlParsingInspection",
+                "shortDescription": {
+                  "text": "Unsupported syntax in pre-8.0 versions"
+                },
+                "fullDescription": {
+                  "text": "Reports invalid usages of UNION in queries. The inspection works in MySQL versions that are earlier than 8.0. Example (MySQL): 'SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;'",
+                  "markdown": "Reports invalid usages of UNION in queries.\n\nThe inspection works in MySQL versions that are earlier than 8.0.\n\nExample (MySQL):\n\n\n    SELECT * FROM (SELECT 1 UNION (SELECT 1 UNION SELECT 2)) a;\n"
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "MySQL",
+                      "index": 72,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -91514,20 +91514,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
+            "equalIndicator/v1": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -91568,20 +91568,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
+            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -91676,20 +91676,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
+            "equalIndicator/v1": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -91730,20 +91730,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
+            "equalIndicator/v1": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -91838,20 +91838,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
+            "equalIndicator/v1": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
           },
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -91892,20 +91892,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
+            "equalIndicator/v1": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
           },
           "properties": {
             "ideaSeverity": "WARNING",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -92000,20 +92000,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
+            "equalIndicator/v1": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
           },
           "properties": {
             "ideaSeverity": "ERROR",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -92054,60 +92054,6 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 51,
-                  "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
-                  "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
@@ -92115,7 +92061,7 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
           },
           "properties": {
             "ideaSeverity": "ERROR",
@@ -92216,6 +92162,60 @@
               },
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
@@ -92236,9 +92236,9 @@
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-01-24",
-        "guid": "688c25ef-0a69-46ca-b451-ad1ef8b29bf9",
+        "guid": "21e0976e-be24-4084-98ff-ed2d1cc8c3f7",
         "properties": {
-          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3996032645"
+          "jobUrl": "https://github.com/hybloid/rd/actions/runs/3996764291"
         }
       },
       "newlineSequences": [

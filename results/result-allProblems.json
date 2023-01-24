@@ -36,38 +36,6 @@
   "type": "Use explicit or implicit modifier definition for type members",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
-  ],
-  "severity": "Moderate",
-  "comment": "Inconsistent modifiers style: missing 'private' modifier",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 5,
-      "offset": 15,
-      "length": 3,
-      "code": {
-        "startLine": 3,
-        "length": 3,
-        "offset": 37,
-        "surroundingCode": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
-    "inspectionName": "ArrangeTypeMemberModifiers"
-  },
-  "hash": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
-},{
-  "tool": "Code Inspection",
-  "category": "Syntax Style",
-  "type": "Use explicit or implicit modifier definition for type members",
-  "tags": [
-    "C#",
     ".NETFramework 4.6.1"
   ],
   "severity": "Moderate",
@@ -94,6 +62,38 @@
     "inspectionName": "ArrangeTypeMemberModifiers"
   },
   "hash": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use explicit or implicit modifier definition for type members",
+  "tags": [
+    "C#",
+    ".NETStandard 2.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Inconsistent modifiers style: missing 'private' modifier",
+  "detailsInfo": "",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/NewFile.cs",
+      "language": "C#",
+      "line": 5,
+      "offset": 15,
+      "length": 3,
+      "code": {
+        "startLine": 3,
+        "length": 3,
+        "offset": 37,
+        "surroundingCode": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "inspectionName": "ArrangeTypeMemberModifiers"
+  },
+  "hash": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
 },{
   "tool": "Code Inspection",
   "category": "Syntax Style",
@@ -132,38 +132,6 @@
   "type": "Use preferred 'var' style (for built-in types)",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
-  ],
-  "severity": "Moderate",
-  "comment": "Use 'var' (built-in types)",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 7,
-      "offset": 5,
-      "length": 3,
-      "code": {
-        "startLine": 5,
-        "length": 3,
-        "offset": 28,
-        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
-    "inspectionName": "SuggestVarOrType_BuiltInTypes"
-  },
-  "hash": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
-},{
-  "tool": "Code Inspection",
-  "category": "Syntax Style",
-  "type": "Use preferred 'var' style (for built-in types)",
-  "tags": [
-    "C#",
     ".NETFramework 4.6.1"
   ],
   "severity": "Moderate",
@@ -190,6 +158,38 @@
     "inspectionName": "SuggestVarOrType_BuiltInTypes"
   },
   "hash": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
+},{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use preferred 'var' style (for built-in types)",
+  "tags": [
+    "C#",
+    ".NETStandard 2.0"
+  ],
+  "severity": "Moderate",
+  "comment": "Use 'var' (built-in types)",
+  "detailsInfo": "",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/NewFile.cs",
+      "language": "C#",
+      "line": 7,
+      "offset": 5,
+      "length": 3,
+      "code": {
+        "startLine": 5,
+        "length": 3,
+        "offset": 28,
+        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "inspectionName": "SuggestVarOrType_BuiltInTypes"
+  },
+  "hash": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
 },{
   "tool": "Code Inspection",
   "category": "Redundancies in Symbol Declarations",
@@ -228,38 +228,6 @@
   "type": "Type member is never used (private accessibility)",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
-  ],
-  "severity": "High",
-  "comment": "Method 'Foo' is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 5,
-      "offset": 15,
-      "length": 3,
-      "code": {
-        "startLine": 3,
-        "length": 3,
-        "offset": 37,
-        "surroundingCode": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
-    "inspectionName": "UnusedMember.Local"
-  },
-  "hash": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
-},{
-  "tool": "Code Inspection",
-  "category": "Redundancies in Symbol Declarations",
-  "type": "Type member is never used (private accessibility)",
-  "tags": [
-    "C#",
     ".NETFramework 4.6.1"
   ],
   "severity": "High",
@@ -286,6 +254,38 @@
     "inspectionName": "UnusedMember.Local"
   },
   "hash": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Type member is never used (private accessibility)",
+  "tags": [
+    "C#",
+    ".NETStandard 2.0"
+  ],
+  "severity": "High",
+  "comment": "Method 'Foo' is never used",
+  "detailsInfo": "",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/NewFile.cs",
+      "language": "C#",
+      "line": 5,
+      "offset": 15,
+      "length": 3,
+      "code": {
+        "startLine": 3,
+        "length": 3,
+        "offset": 37,
+        "surroundingCode": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "inspectionName": "UnusedMember.Local"
+  },
+  "hash": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
 },{
   "tool": "Code Inspection",
   "category": "Compiler Warnings",
@@ -318,38 +318,6 @@
     "inspectionName": "NotAccessedVariable.Compiler"
   },
   "hash": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
-},{
-  "tool": "Code Inspection",
-  "category": "Compiler Warnings",
-  "type": "Non-accessed local variable",
-  "tags": [
-    "C#",
-    ".NETStandard 2.0"
-  ],
-  "severity": "Critical",
-  "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 7,
-      "offset": 9,
-      "length": 1,
-      "code": {
-        "startLine": 5,
-        "length": 1,
-        "offset": 32,
-        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
-    "inspectionName": "NotAccessedVariable.Compiler"
-  },
-  "hash": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
 },{
   "tool": "Code Inspection",
   "category": "Compiler Warnings",
@@ -396,16 +364,16 @@
   "sources": [
     {
       "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
+      "path": "Lifetimes/Core/NewFile.cs",
       "language": "C#",
-      "line": 53,
-      "offset": 11,
+      "line": 7,
+      "offset": 9,
       "length": 1,
       "code": {
-        "startLine": 51,
+        "startLine": 5,
         "length": 1,
-        "offset": 60,
-        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+        "offset": 32,
+        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
       }
     }
   ],
@@ -413,7 +381,7 @@
     "module": "Lifetimes..NETStandard,Version=v2.0",
     "inspectionName": "NotAccessedVariable.Compiler"
   },
-  "hash": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+  "hash": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
 },{
   "tool": "Code Inspection",
   "category": "Compiler Warnings",
@@ -446,6 +414,38 @@
     "inspectionName": "NotAccessedVariable.Compiler"
   },
   "hash": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Non-accessed local variable",
+  "tags": [
+    "C#",
+    ".NETStandard 2.0"
+  ],
+  "severity": "Critical",
+  "comment": "Local variable 'a' is only assigned but its value is never used",
+  "detailsInfo": "",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/Maybe.cs",
+      "language": "C#",
+      "line": 53,
+      "offset": 11,
+      "length": 1,
+      "code": {
+        "startLine": 51,
+        "length": 1,
+        "offset": 60,
+        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "inspectionName": "NotAccessedVariable.Compiler"
+  },
+  "hash": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
 },{
   "tool": "Code Inspection",
   "category": "Compiler Warnings",
