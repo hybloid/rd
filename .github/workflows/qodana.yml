@@ -26,9 +26,11 @@ jobs:
         uses: JetBrains/qodana-action@v2022.3.0
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
-          QODANA_BRANCH: testbranch
+          QODANA_REMOTE_URL: https://github.com/${{ github.repository }}
+          QODANA_BRANCH: ${{ github.head_ref }}
+          QODANA_JOB_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
-          args: "--linter,registry.jetbrains.team/p/sa/containers/qodana-dotnet:231.5593.152.39,-e,QODANA_BRANCH=testbranch"
+          args: "--linter,registry.jetbrains.team/p/sa/containers/qodana-dotnet:231.5593.152.39"
       - name: 'Deploy to GitHub Pages'
         uses: peaceiris/actions-gh-pages@v3
         with:
