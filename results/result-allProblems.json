@@ -4,11 +4,11 @@
   "type": "Use explicit or implicit modifier definition for type members",
   "tags": [
     "C#",
-    ".NETFramework 3.5"
+    ".NETStandard 2.0"
   ],
   "severity": "Moderate",
   "comment": "Inconsistent modifiers style: missing 'private' modifier",
-  "detailsInfo": "",
+  "detailsInfo": "'private' modifier can be safely added/removed from type members without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeMemberModifiers.html)",
   "sources": [
     {
       "type": "file",
@@ -26,10 +26,10 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
+    "module": "Lifetimes..NETStandard,Version=v2.0",
     "inspectionName": "ArrangeTypeMemberModifiers"
   },
-  "hash": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
+  "hash": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
 },{
   "tool": "Code Inspection",
   "category": "Syntax Style",
@@ -40,7 +40,7 @@
   ],
   "severity": "Moderate",
   "comment": "Inconsistent modifiers style: missing 'private' modifier",
-  "detailsInfo": "",
+  "detailsInfo": "'private' modifier can be safely added/removed from type members without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeMemberModifiers.html)",
   "sources": [
     {
       "type": "file",
@@ -68,11 +68,11 @@
   "type": "Use explicit or implicit modifier definition for type members",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
+    ".NETFramework 3.5"
   ],
   "severity": "Moderate",
   "comment": "Inconsistent modifiers style: missing 'private' modifier",
-  "detailsInfo": "",
+  "detailsInfo": "'private' modifier can be safely added/removed from type members without changing code semantics [Learn more...](https://www.jetbrains.com/help/rider/ArrangeTypeMemberModifiers.html)",
   "sources": [
     {
       "type": "file",
@@ -90,21 +90,21 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "module": "Lifetimes..NETFramework,Version=v3.5",
     "inspectionName": "ArrangeTypeMemberModifiers"
   },
-  "hash": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
+  "hash": "fcd5eafee9b311a4705d1fb58c309905d4ad8cbef16502d9b2616ee9e1899faf"
 },{
   "tool": "Code Inspection",
   "category": "Syntax Style",
   "type": "Use preferred 'var' style (for built-in types)",
   "tags": [
     "C#",
-    ".NETFramework 3.5"
+    ".NETStandard 2.0"
   ],
   "severity": "Moderate",
   "comment": "Use 'var' (built-in types)",
-  "detailsInfo": "",
+  "detailsInfo": "Convert if declaration is of a built-in type (e.g. string) [Learn more...](https://www.jetbrains.com/help/rider/SuggestVarOrType_BuiltInTypes.html)",
   "sources": [
     {
       "type": "file",
@@ -122,10 +122,10 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
+    "module": "Lifetimes..NETStandard,Version=v2.0",
     "inspectionName": "SuggestVarOrType_BuiltInTypes"
   },
-  "hash": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+  "hash": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
 },{
   "tool": "Code Inspection",
   "category": "Syntax Style",
@@ -136,7 +136,7 @@
   ],
   "severity": "Moderate",
   "comment": "Use 'var' (built-in types)",
-  "detailsInfo": "",
+  "detailsInfo": "Convert if declaration is of a built-in type (e.g. string) [Learn more...](https://www.jetbrains.com/help/rider/SuggestVarOrType_BuiltInTypes.html)",
   "sources": [
     {
       "type": "file",
@@ -164,11 +164,11 @@
   "type": "Use preferred 'var' style (for built-in types)",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
+    ".NETFramework 3.5"
   ],
   "severity": "Moderate",
   "comment": "Use 'var' (built-in types)",
-  "detailsInfo": "",
+  "detailsInfo": "Convert if declaration is of a built-in type (e.g. string) [Learn more...](https://www.jetbrains.com/help/rider/SuggestVarOrType_BuiltInTypes.html)",
   "sources": [
     {
       "type": "file",
@@ -186,21 +186,21 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "module": "Lifetimes..NETFramework,Version=v3.5",
     "inspectionName": "SuggestVarOrType_BuiltInTypes"
   },
-  "hash": "1c988e6372ddd129c0a8e791a4163e82e74ad3be58cf97f1f3b67eb153eca8a7"
+  "hash": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
 },{
   "tool": "Code Inspection",
   "category": "Redundancies in Symbol Declarations",
   "type": "Type member is never used (private accessibility)",
   "tags": [
     "C#",
-    ".NETFramework 3.5"
+    ".NETStandard 2.0"
   ],
   "severity": "High",
   "comment": "Method 'Foo' is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Local.html)",
   "sources": [
     {
       "type": "file",
@@ -218,10 +218,10 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
+    "module": "Lifetimes..NETStandard,Version=v2.0",
     "inspectionName": "UnusedMember.Local"
   },
-  "hash": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
+  "hash": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
 },{
   "tool": "Code Inspection",
   "category": "Redundancies in Symbol Declarations",
@@ -232,7 +232,7 @@
   ],
   "severity": "High",
   "comment": "Method 'Foo' is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Local.html)",
   "sources": [
     {
       "type": "file",
@@ -260,11 +260,11 @@
   "type": "Type member is never used (private accessibility)",
   "tags": [
     "C#",
-    ".NETStandard 2.0"
+    ".NETFramework 3.5"
   ],
   "severity": "High",
   "comment": "Method 'Foo' is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Type member is never used [Learn more...](https://www.jetbrains.com/help/rider/UnusedMember.Local.html)",
   "sources": [
     {
       "type": "file",
@@ -282,74 +282,10 @@
     }
   ],
   "attributes": {
-    "module": "Lifetimes..NETStandard,Version=v2.0",
+    "module": "Lifetimes..NETFramework,Version=v3.5",
     "inspectionName": "UnusedMember.Local"
   },
-  "hash": "05cab4594807904d0f52daad5248f6160e3df15fdd004b0149ec386d3098bb02"
-},{
-  "tool": "Code Inspection",
-  "category": "Compiler Warnings",
-  "type": "Non-accessed local variable",
-  "tags": [
-    "C#",
-    ".NETFramework 3.5"
-  ],
-  "severity": "Critical",
-  "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 7,
-      "offset": 9,
-      "length": 1,
-      "code": {
-        "startLine": 5,
-        "length": 1,
-        "offset": 32,
-        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
-    "inspectionName": "NotAccessedVariable.Compiler"
-  },
-  "hash": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
-},{
-  "tool": "Code Inspection",
-  "category": "Compiler Warnings",
-  "type": "Non-accessed local variable",
-  "tags": [
-    "C#",
-    ".NETFramework 4.6.1"
-  ],
-  "severity": "Critical",
-  "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/NewFile.cs",
-      "language": "C#",
-      "line": 7,
-      "offset": 9,
-      "length": 1,
-      "code": {
-        "startLine": 5,
-        "length": 1,
-        "offset": 32,
-        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v4.6.1",
-    "inspectionName": "NotAccessedVariable.Compiler"
-  },
-  "hash": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
+  "hash": "42f5f16f3713b5b80a79183ebc3d4d4488705e6ba7a730c3ca3bb18a95366dc3"
 },{
   "tool": "Code Inspection",
   "category": "Compiler Warnings",
@@ -360,7 +296,7 @@
   ],
   "severity": "Critical",
   "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
   "sources": [
     {
       "type": "file",
@@ -388,11 +324,107 @@
   "type": "Non-accessed local variable",
   "tags": [
     "C#",
+    ".NETFramework 4.6.1"
+  ],
+  "severity": "Critical",
+  "comment": "Local variable 'a' is only assigned but its value is never used",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/NewFile.cs",
+      "language": "C#",
+      "line": 7,
+      "offset": 9,
+      "length": 1,
+      "code": {
+        "startLine": 5,
+        "length": 1,
+        "offset": 32,
+        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETFramework,Version=v4.6.1",
+    "inspectionName": "NotAccessedVariable.Compiler"
+  },
+  "hash": "1310e8525d10e0ab5a268a6c8964366767d04142b0d23a9a9eb7bb0eb58dfe5d"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Non-accessed local variable",
+  "tags": [
+    "C#",
+    ".NETFramework 3.5"
+  ],
+  "severity": "Critical",
+  "comment": "Local variable 'a' is only assigned but its value is never used",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/Maybe.cs",
+      "language": "C#",
+      "line": 53,
+      "offset": 11,
+      "length": 1,
+      "code": {
+        "startLine": 51,
+        "length": 1,
+        "offset": 60,
+        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETFramework,Version=v3.5",
+    "inspectionName": "NotAccessedVariable.Compiler"
+  },
+  "hash": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Non-accessed local variable",
+  "tags": [
+    "C#",
+    ".NETFramework 3.5"
+  ],
+  "severity": "Critical",
+  "comment": "Local variable 'a' is only assigned but its value is never used",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "Lifetimes/Core/NewFile.cs",
+      "language": "C#",
+      "line": 7,
+      "offset": 9,
+      "length": 1,
+      "code": {
+        "startLine": 5,
+        "length": 1,
+        "offset": 32,
+        "surroundingCode": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Lifetimes..NETFramework,Version=v3.5",
+    "inspectionName": "NotAccessedVariable.Compiler"
+  },
+  "hash": "a3bc4cabf89fb1b680670a7a99011d4d1fabe8c734a881fa80a659ba3078075f"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Non-accessed local variable",
+  "tags": [
+    "C#",
     ".NETStandard 2.0"
   ],
   "severity": "Critical",
   "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
   "sources": [
     {
       "type": "file",
@@ -424,7 +456,7 @@
   ],
   "severity": "Critical",
   "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
+  "detailsInfo": "Local variable is assigned but its value is never used (compiler warning)",
   "sources": [
     {
       "type": "file",
@@ -446,36 +478,4 @@
     "inspectionName": "NotAccessedVariable.Compiler"
   },
   "hash": "c4bf4e16f66cbdd86e69106e46b125079dd2820174a05e4c587534e01f2d54aa"
-},{
-  "tool": "Code Inspection",
-  "category": "Compiler Warnings",
-  "type": "Non-accessed local variable",
-  "tags": [
-    "C#",
-    ".NETFramework 3.5"
-  ],
-  "severity": "Critical",
-  "comment": "Local variable 'a' is only assigned but its value is never used",
-  "detailsInfo": "",
-  "sources": [
-    {
-      "type": "file",
-      "path": "Lifetimes/Core/Maybe.cs",
-      "language": "C#",
-      "line": 53,
-      "offset": 11,
-      "length": 1,
-      "code": {
-        "startLine": 51,
-        "length": 1,
-        "offset": 60,
-        "surroundingCode": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "Lifetimes..NETFramework,Version=v3.5",
-    "inspectionName": "NotAccessedVariable.Compiler"
-  },
-  "hash": "e0e1beda3cfeca2632bd89ad814a2f4806810a33905d74cdf83b89895611f0ac"
 }]}

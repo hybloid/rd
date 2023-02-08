@@ -7,13 +7,13 @@
   "attributes": {
     "vcs": {
       "sarifIdea": {
-        "repositoryUri": "ssh://git@github.com/hybloid/rd.git",
-        "revisionId": "0be53c746387e64a6b449937fd847d52799e9297",
-        "branch": "refs/heads/testbranch"
+        "repositoryUri": "https://github.com/hybloid/rd.git",
+        "revisionId": "c19b7c1891de94e7f32db70ba3374f6f7b72e195",
+        "branch": "testbranch"
       }
     },
     "deviceId": "200820300000000-0000-0000-0000-000000000001",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/3998877363",
-    "repoUrl": "https://github.com/hybloid/rd"
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4123844464",
+    "repoUrl": "https://github.com/hybloid/rd.git"
   }
 }

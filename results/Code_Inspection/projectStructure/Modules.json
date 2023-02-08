@@ -488,14 +488,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "sourceFolders": []
         },
@@ -736,14 +728,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "sourceFolders": []
         },
@@ -909,14 +893,6 @@
         },
         {
           "path": "file://$PROJECT_DIR$/Test.Lifetimes/Utils/LocalStopwatchTest.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1148,14 +1124,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "sourceFolders": []
         },
@@ -1304,14 +1272,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "sourceFolders": []
         },
@@ -1360,14 +1320,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "sourceFolders": []
         },
@@ -1389,14 +1341,6 @@
         },
         {
           "path": "file://$PROJECT_DIR$/RdFramework.Reflection/Properties/AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1528,6 +1472,14 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/net461/Lifetimes.AssemblyInfo.cs",
           "sourceFolders": []
         },
@@ -1560,7 +1512,23 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.Program.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1640,7 +1608,15 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.Program.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1680,11 +1656,27 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.Reflection.App/obj/Debug/net461/Test.Reflection.App.AssemblyInfo.cs",
           "sourceFolders": []
         },
         {
           "path": "file://$PROJECT_DIR$/Test.Reflection.App/obj/Debug/net461/Test.Reflection.App.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1701,6 +1693,14 @@
         },
         {
           "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/net35/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
