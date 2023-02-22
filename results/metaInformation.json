@@ -1,19 +1,19 @@
 {
-  "total": 15,
+  "total": 17,
   "tools inspection": {
-    "Code Inspection": 15
+    "Code Inspection": 17
   },
   "linter": "QDNET",
   "attributes": {
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/hybloid/rd.git",
-        "revisionId": "c19b7c1891de94e7f32db70ba3374f6f7b72e195",
+        "revisionId": "6dd18f497e0f2f451b39b5c32be128e355248968",
         "branch": "testbranch"
       }
     },
     "deviceId": "200820300000000-0000-0000-0000-000000000001",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4123844464",
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4243691049",
     "repoUrl": "https://github.com/hybloid/rd.git"
   }
 }

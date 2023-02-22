@@ -1472,14 +1472,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/net461/Lifetimes.AssemblyInfo.cs",
           "sourceFolders": []
         },
@@ -1493,6 +1485,14 @@
         },
         {
           "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/net35/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1520,34 +1520,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.Program.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net35/Test.Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net35/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net461/Test.Lifetimes.AssemblyInfo.cs",
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net461/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../../cache/nuget/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/native/x86/KernelTraceControl.dll",
           "sourceFolders": []
         },
@@ -1568,15 +1540,31 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net461/Test.Lifetimes.AssemblyInfo.cs",
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net461/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/nunit.engine.netstandard.dll",
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.Program.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net35/Test.Lifetimes.AssemblyInfo.cs",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/net35/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "sourceFolders": []
         },
         {
@@ -1605,6 +1593,18 @@
         },
         {
           "path": "file://$PROJECT_DIR$/../../cache/nuget/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/net45/OSExtensions.dll",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/../../cache/nuget/nunit3testadapter/3.11.0/build/netcoreapp1.0/nunit.engine.netstandard.dll",
           "sourceFolders": []
         },
         {
