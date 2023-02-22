@@ -88953,37 +88953,6 @@
                 ]
               },
               {
-                "id": "ConstantOnLHSOfComparisonJS",
-                "shortDescription": {
-                  "text": "Constant on left side of comparison"
-                },
-                "fullDescription": {
-                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
-                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSCheckFunctionSignatures",
                 "shortDescription": {
                   "text": "Signature mismatch"
@@ -89004,6 +88973,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ConstantOnLHSOfComparisonJS",
+                "shortDescription": {
+                  "text": "Constant on left side of comparison"
+                },
+                "fullDescription": {
+                  "text": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons.",
+                  "markdown": "Reports a comparison operation with a constant value in the left-hand side. According to coding conventions, constants should be in the right-hand side of comparisons."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -89945,37 +89945,6 @@
                 ]
               },
               {
-                "id": "InnerHTMLJS",
-                "shortDescription": {
-                  "text": "Use of 'innerHTML' property"
-                },
-                "fullDescription": {
-                  "text": "Reports a JavaScript access to DOM nodes as text using the 'innerHTML' property. Most usages of 'innerHTML' are performed better with explicit DOM calls, such as 'getElementByID()' and 'createElement()'. Additionally, 'innerHTML' will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs.",
-                  "markdown": "Reports a JavaScript access to DOM nodes as text using the `innerHTML` property. Most usages of `innerHTML` are performed better with explicit DOM calls, such as `getElementByID()` and `createElement()`. Additionally, `innerHTML` will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/DOM issues",
-                      "index": 31,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "ES6UnusedImports",
                 "shortDescription": {
                   "text": "Unused import"
@@ -89996,6 +89965,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/Imports and dependencies",
                       "index": 60,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "InnerHTMLJS",
+                "shortDescription": {
+                  "text": "Use of 'innerHTML' property"
+                },
+                "fullDescription": {
+                  "text": "Reports a JavaScript access to DOM nodes as text using the 'innerHTML' property. Most usages of 'innerHTML' are performed better with explicit DOM calls, such as 'getElementByID()' and 'createElement()'. Additionally, 'innerHTML' will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs.",
+                  "markdown": "Reports a JavaScript access to DOM nodes as text using the `innerHTML` property. Most usages of `innerHTML` are performed better with explicit DOM calls, such as `getElementByID()` and `createElement()`. Additionally, `innerHTML` will not work with XML DOMs, including DOMs for XHTML if viewed as XML. This can lead to difficulties in diagnosing bugs."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/DOM issues",
+                      "index": 31,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -90131,37 +90131,6 @@
                 ]
               },
               {
-                "id": "NonBlockStatementBodyJS",
-                "shortDescription": {
-                  "text": "Statement body without braces"
-                },
-                "fullDescription": {
-                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
-                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
-                },
-                "defaultConfiguration": {
-                  "enabled": false,
-                  "level": "warning",
-                  "parameters": {
-                    "ideaSeverity": "WARNING"
-                  }
-                },
-                "relationships": [
-                  {
-                    "target": {
-                      "id": "JavaScript and TypeScript/Code style issues",
-                      "index": 42,
-                      "toolComponent": {
-                        "name": "QDNET"
-                      }
-                    },
-                    "kinds": [
-                      "superset"
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": "JSValidateJSDoc",
                 "shortDescription": {
                   "text": "Syntax errors and unresolved references in JSDoc"
@@ -90182,6 +90151,37 @@
                     "target": {
                       "id": "JavaScript and TypeScript/General",
                       "index": 11,
+                      "toolComponent": {
+                        "name": "QDNET"
+                      }
+                    },
+                    "kinds": [
+                      "superset"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "NonBlockStatementBodyJS",
+                "shortDescription": {
+                  "text": "Statement body without braces"
+                },
+                "fullDescription": {
+                  "text": "Reports a 'if', 'while', 'for', or 'with' statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance.",
+                  "markdown": "Reports a `if`, `while`, `for`, or `with` statements whose body is not a block statement. Using code block in statement bodies is usually safer for downstream maintenance."
+                },
+                "defaultConfiguration": {
+                  "enabled": false,
+                  "level": "warning",
+                  "parameters": {
+                    "ideaSeverity": "WARNING"
+                  }
+                },
+                "relationships": [
+                  {
+                    "target": {
+                      "id": "JavaScript and TypeScript/Code style issues",
+                      "index": 42,
                       "toolComponent": {
                         "name": "QDNET"
                       }
@@ -99751,20 +99751,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
+            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETStandard 2.0"
             ]
           }
         },
@@ -99805,20 +99805,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "cd0cc1d9fddd851f69b0e33fdd11db60cf66a29a728bba90364c0a4008f378e5"
+            "equalIndicator/v1": "5b30628bbf06ea7955b2a99738c0118692636c0fd6f22e14331ffadb66337466"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETStandard 2.0"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -99942,45 +99942,45 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uri": "Scripts/LineEndingUtil.cs",
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 5,
-                  "charOffset": 78,
-                  "charLength": 3,
+                  "startLine": 20,
+                  "startColumn": 21,
+                  "charOffset": 518,
+                  "charLength": 4,
                   "snippet": {
-                    "text": "int"
+                    "text": "char"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 5,
+                  "startLine": 18,
                   "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
+                  "charOffset": 466,
+                  "charLength": 139,
                   "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
+                    "text": "                        break;\n\n                    char curChar = (char)b;\n                    if (curChar == '\\n' )\n                    {"
                   }
                 }
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "fullyQualifiedName": "Scripts",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
+            "equalIndicator/v1": "eb69b7473021f4839e298a2c8cafa90f4ba5d1b1708bcee19379e6059fb6f380"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 4.6.1"
+              ".NETCoreApp 3.1"
             ]
           }
         },
@@ -100075,20 +100075,20 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
+            "equalIndicator/v1": "be6ac366911fea1e1d915b5d03052b93752c5a4d03ffcf8b27deb1aea84df978"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETFramework 3.5"
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -100104,99 +100104,45 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Scripts/LineEndingUtil.cs",
+                  "uri": "Lifetimes/Core/NewFile.cs",
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 20,
-                  "startColumn": 21,
-                  "charOffset": 518,
-                  "charLength": 4,
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "charOffset": 78,
+                  "charLength": 3,
                   "snippet": {
-                    "text": "char"
+                    "text": "int"
                   },
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 18,
+                  "startLine": 5,
                   "startColumn": 1,
-                  "charOffset": 466,
-                  "charLength": 139,
+                  "charOffset": 50,
+                  "charLength": 45,
                   "snippet": {
-                    "text": "                        break;\n\n                    char curChar = (char)b;\n                    if (curChar == '\\n' )\n                    {"
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
                   }
                 }
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Scripts",
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
               ]
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "eb69b7473021f4839e298a2c8cafa90f4ba5d1b1708bcee19379e6059fb6f380"
+            "equalIndicator/v1": "6fad5958e00009cd915bf4e9c007c2ca8e09bd16abd04a42672cc68d32323841"
           },
           "properties": {
             "ideaSeverity": "WEAK WARNING",
             "tags": [
               "C#",
-              ".NETCoreApp 3.1"
-            ]
-          }
-        },
-        {
-          "ruleId": "UnusedMember.Local",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Method 'Foo' is never used",
-            "markdown": "Method 'Foo' is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 15,
-                  "charOffset": 64,
-                  "charLength": 3,
-                  "snippet": {
-                    "text": "Foo"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "charOffset": 27,
-                  "charLength": 62,
-                  "snippet": {
-                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
-          },
-          "properties": {
-            "ideaSeverity": "WARNING",
-            "tags": [
-              "C#",
-              ".NETFramework 4.6.1"
+              ".NETFramework 3.5"
             ]
           }
         },
@@ -100251,6 +100197,60 @@
             "tags": [
               "C#",
               ".NETStandard 2.0"
+            ]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Method 'Foo' is never used",
+            "markdown": "Method 'Foo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/NewFile.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 15,
+                  "charOffset": 64,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "Foo"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "charOffset": 27,
+                  "charLength": 62,
+                  "snippet": {
+                    "text": "public class NewFile\n{\n  static void Foo()\n  {\n    int a = 42;"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETFramework,Version=v4.6.1",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "304fcfc3e3d8f0353aad97f360b33e01dbddd31a7d61ec537e14a0c42ff160ff"
+          },
+          "properties": {
+            "ideaSeverity": "WARNING",
+            "tags": [
+              "C#",
+              ".NETFramework 4.6.1"
             ]
           }
         },
@@ -100374,13 +100374,13 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uri": "Lifetimes/Core/NewFile.cs",
                   "uriBaseId": "SRCROOT"
                 },
                 "region": {
-                  "startLine": 53,
-                  "startColumn": 11,
-                  "charOffset": 1424,
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "charOffset": 82,
                   "charLength": 1,
                   "snippet": {
                     "text": "a"
@@ -100388,12 +100388,12 @@
                   "sourceLanguage": "C#"
                 },
                 "contextRegion": {
-                  "startLine": 51,
+                  "startLine": 5,
                   "startColumn": 1,
-                  "charOffset": 1364,
-                  "charLength": 146,
+                  "charOffset": 50,
+                  "charLength": 45,
                   "snippet": {
-                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
                   }
                 }
               },
@@ -100406,7 +100406,7 @@
             }
           ],
           "partialFingerprints": {
-            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
           },
           "properties": {
             "ideaSeverity": "ERROR",
@@ -100561,60 +100561,6 @@
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
-                  "kind": "module"
-                }
-              ]
-            }
-          ],
-          "partialFingerprints": {
-            "equalIndicator/v1": "24a5883d679dcb482013faff8bf45bce3218001b57eb049adde6852cc6a4e14c"
-          },
-          "properties": {
-            "ideaSeverity": "ERROR",
-            "tags": [
-              "C#",
-              ".NETStandard 2.0"
-            ]
-          }
-        },
-        {
-          "ruleId": "NotAccessedVariable.Compiler",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Local variable 'a' is only assigned but its value is never used",
-            "markdown": "Local variable 'a' is only assigned but its value is never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "Lifetimes/Core/NewFile.cs",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 9,
-                  "charOffset": 82,
-                  "charLength": 1,
-                  "snippet": {
-                    "text": "a"
-                  },
-                  "sourceLanguage": "C#"
-                },
-                "contextRegion": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "charOffset": 50,
-                  "charLength": 45,
-                  "snippet": {
-                    "text": "  static void Foo()\n  {\n    int a = 42;\n  }\n}"
-                  }
-                }
-              },
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Lifetimes..NETFramework,Version=v3.5",
                   "kind": "module"
                 }
@@ -100631,11 +100577,65 @@
               ".NETFramework 3.5"
             ]
           }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Local variable 'a' is only assigned but its value is never used",
+            "markdown": "Local variable 'a' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Lifetimes/Core/Maybe.cs",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "charOffset": 1424,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "a"
+                  },
+                  "sourceLanguage": "C#"
+                },
+                "contextRegion": {
+                  "startLine": 51,
+                  "startColumn": 1,
+                  "charOffset": 1364,
+                  "charLength": 146,
+                  "snippet": {
+                    "text": "    public override bool Equals(object obj)\n    {\n      var a = 5;\n      if (!(obj is Maybe<T>)) return false;\n      return Equals((Maybe<T>)obj);"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lifetimes..NETStandard,Version=v2.0",
+                  "kind": "module"
+                }
+              ]
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "6e419846ef49dc07d0b3189aa9d195014ad85f8bb93f0e42fa5d39570d974ed1"
+          },
+          "properties": {
+            "ideaSeverity": "ERROR",
+            "tags": [
+              "C#",
+              ".NETStandard 2.0"
+            ]
+          }
         }
       ],
       "automationDetails": {
         "id": "Rd/qodana/2023-02-22",
-        "guid": "3b8d84f9-9ed0-45f6-ab38-b7b16ad2d5fa",
+        "guid": "a2135d86-a348-4ea7-8e54-ad3e17ee1ab6",
         "properties": {
           "jobUrl": "https://github.com/hybloid/rd/actions/runs/4243691049"
         }
