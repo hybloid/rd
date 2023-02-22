@@ -10,6 +10,7 @@ namespace JetBrains.Rd.Scripts
             using (var fileStream = File.OpenRead(path))
             {
                 char prevChar = '\0';
+                char foo = prevChar;
                 for (int i = 0; i < 4000; i++)
                 {
                     int b;
