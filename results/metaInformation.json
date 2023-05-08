@@ -8,12 +8,12 @@
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/hybloid/rd.git",
-        "revisionId": "6dd18f497e0f2f451b39b5c32be128e355248968",
+        "revisionId": "a87d38ade0059fc72222fa247678e1c386dc91cf",
         "branch": "testbranch"
       }
     },
-    "deviceId": "200820300000000-0000-0000-0000-000000000001",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4243691049",
+    "deviceId": "200820300000000-ce8c-09a2-200d-18d74aa5e602",
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4913852561",
     "repoUrl": "https://github.com/hybloid/rd.git"
   }
 }
