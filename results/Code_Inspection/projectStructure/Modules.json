@@ -2552,12 +2552,6 @@
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Lifetimes/Core/NewFile.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
         }
       ],
       "orderEntries": [
