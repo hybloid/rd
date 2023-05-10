@@ -3,10 +3,10 @@
     "SolutionFile",
     "MSBuild",
     "C#",
+    "textmate",
     "EditorConfig",
     "Plain text",
     "JSON",
-    "XML",
-    "textmate"
+    "XML"
   ]
 }
