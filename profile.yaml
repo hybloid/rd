@@ -1,0 +1,13 @@
+name: "My custom profile"
+
+include:
+  - "qodana.starter.yaml" # Include the qodana.starter profile
+
+groups:
+  - groupId: ExcludedInspections
+    groups:
+      - "category:C++"
+
+inspections:
+  - group: ExcludedInspections
+    enabled: false
