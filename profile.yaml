@@ -1,7 +1,6 @@
 name: "My custom profile"
 
-include:
-  - "qodana.starter.yaml" # Include the qodana.starter profile
+baseProfile: qodana.starter
 
 groups:
   - groupId: ExcludedInspections
