@@ -1,19 +1,19 @@
 {
-  "total": 7016,
+  "total": 7013,
   "tools inspection": {
-    "Code Inspection": 7016
+    "Code Inspection": 7013
   },
   "linter": "QDNET",
   "attributes": {
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/hybloid/rd.git",
-        "revisionId": "d6026f1baa2fc441a94a10262414032b92686cc4",
-        "branch": "oleg-wg-problem"
+        "revisionId": "54abdff8529f994ac624c9af3fb6bdbb3b66c9e4",
+        "branch": "refs/heads/master"
       }
     },
-    "deviceId": "200820300000000-ce8c-09a2-200d-18d74aa5e602",
-    "jobUrl": "https://github.com/hybloid/rd/actions/runs/4934536291",
+    "deviceId": "200820300000000-b96e-c6c7-ac94-20e0b7731f2f",
+    "jobUrl": "https://github.com/hybloid/rd/actions/runs/5523657378",
     "repoUrl": "https://github.com/hybloid/rd.git"
   }
 }

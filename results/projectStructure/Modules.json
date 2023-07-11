@@ -730,18 +730,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -1102,18 +1090,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -1361,18 +1337,6 @@
         },
         {
           "path": "file://$PROJECT_DIR$/Test.Lifetimes/Utils/LocalStopwatchTest.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -1720,18 +1684,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -1954,18 +1906,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.GeneratedMSBuildEditorConfig.editorconfig",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -2038,18 +1978,6 @@
           "sourceFolders": []
         },
         {
-          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.GeneratedMSBuildEditorConfig.editorconfig",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
           "path": "file://$PROJECT_DIR$/../.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -2081,18 +2009,6 @@
         },
         {
           "path": "file://$PROJECT_DIR$/RdFramework.Reflection/Properties/AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.AssemblyInfo.cs",
-          "excludePatterns": [],
-          "excludeFolders": [],
-          "sourceFolders": []
-        },
-        {
-          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -2314,6 +2230,18 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Lifetimes/obj/Debug/netstandard2.0/Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/net461/RdFramework.AssemblyInfo.cs",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -2333,6 +2261,18 @@
         },
         {
           "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/net35/RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework/obj/Debug/netstandard2.0/RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -2380,7 +2320,19 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.Program.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Lifetimes/obj/Debug/netcoreapp3.1/Test.Lifetimes.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -2458,7 +2410,19 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.Program.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.RdFramework/obj/Debug/netcoreapp3.1/Test.RdFramework.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -2518,6 +2482,18 @@
           "sourceFolders": []
         },
         {
+          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Test.Cross/obj/CrossTests/netcoreapp3.1/Test.Cross.GeneratedMSBuildEditorConfig.editorconfig",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
           "path": "file://$PROJECT_DIR$/Test.Reflection.App/obj/Debug/net461/Test.Reflection.App.AssemblyInfo.cs",
           "excludePatterns": [],
           "excludeFolders": [],
@@ -2525,6 +2501,18 @@
         },
         {
           "path": "file://$PROJECT_DIR$/Test.Reflection.App/obj/Debug/net461/Test.Reflection.App.GeneratedMSBuildEditorConfig.editorconfig",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/Scripts/obj/Debug/netcoreapp3.1/Scripts.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
@@ -2549,6 +2537,18 @@
         },
         {
           "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/net35/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.AssemblyInfo.cs",
+          "excludePatterns": [],
+          "excludeFolders": [],
+          "sourceFolders": []
+        },
+        {
+          "path": "file://$PROJECT_DIR$/RdFramework.Reflection/obj/Debug/netstandard2.0/RdFramework.Reflection.GeneratedMSBuildEditorConfig.editorconfig",
           "excludePatterns": [],
           "excludeFolders": [],
           "sourceFolders": []
