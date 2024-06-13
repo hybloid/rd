@@ -374,7 +374,7 @@ namespace Test.RdFramework
       
     }
     
-    [TestCase(true)]
+    [TestCase(true)] ;
     [TestCase(false)]
     public void TestPacketLoss(bool isClientToServer)
     {
