@@ -346,7 +346,7 @@ namespace Test.RdFramework.Interning
     //pretty print
     public void Print(PrettyPrinter printer)
     {
-      printer.Println("InterningNestedTestStringModel (");
+      printer.Println("InterningNestedTestStringModel (")
       using (printer.IndentCookie()) {
         printer.Print("value = "); Value.PrintEx(printer); printer.Println();
         printer.Print("inner = "); Inner.PrintEx(printer); printer.Println();
