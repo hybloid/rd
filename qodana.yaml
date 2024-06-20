@@ -1,0 +1,5 @@
+bootstrap: |
+  rm -rf .idea
+
+profile:
+  path: profile.yaml
